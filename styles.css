@@ -37,9 +37,17 @@ body {
   color: white;
 }
 
+.header:not(.scrolled) .nav-links {
+  background: none;
+}
+
 .header.scrolled .nav-links a,
 .header.scrolled .logo {
   color: var(--primary-color);
+}
+
+.header.scrolled .nav-links {
+  background: white;
 }
 
 .nav-links a:hover {
@@ -100,7 +108,7 @@ body {
   top: 100%;
   left: 0;
   width: 100%;
-  background: white;
+  padding-left: 20px;
   flex-direction: column;
   align-items: center;
   overflow: hidden;
