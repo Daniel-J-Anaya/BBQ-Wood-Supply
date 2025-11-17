@@ -317,7 +317,7 @@ h3 {
     max-height: none !important;
     overflow: visible;
     box-shadow: none;
-    background: none;
+    background: none !important;
     gap: 2rem;
   }
 
