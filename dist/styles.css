@@ -306,6 +306,10 @@ h3 {
     margin-right: 25%;
   }
 
+  .header.scrolled .nav-links {
+    background: none;
+  }
+
   .nav-links {
     position: static;
     display: flex;
